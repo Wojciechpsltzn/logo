@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  .logo {
+    background-color: #ffc400;
+    color: rgb(167, 90, 3);
+    margin-top: 35px;
+    padding: 30px;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 1.4;
+    width: 1800px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 250%;
+    border: 15px solid rgb(167, 90, 3);
+    cursor: pointer;
+    font-weight: bold;
+    font-style: oblique;
+    border-style: ridge;
+    background-image: linear-gradient(#cc6633, #ff9933);
+    text-shadow: 3px 3px 9px #ffcc99;
+  }
+  
+  .logo:hover {
+    font-size: 350%;
+  }
+  
+  .logo:hover::after {
+    content: "= 🐐";
+    color: rgb(167, 90, 3);
+    margin-left: 10px;
+  }
